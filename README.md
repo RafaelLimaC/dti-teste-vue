@@ -1,10 +1,16 @@
 # Teste prático Dti digital
 
+[![JavaScript](https://img.shields.io/badge/JavaScript-323330?logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+[![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS-239120?logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+[![VUE.JS](https://img.shields.io/badge/Vue.js-35495E?logo=vue.js&logoColor=white)](https://vuejs.org/)
+
 ## Instruções para executar o sistema
 
 ### 1. Instalação do projeto:
 
-- Execute npm install no diretório raiz do projeto para instalar as dependências.
+- Clone o respositório com **'git clone https://github.com/RafaelLimaC/dti-teste-vue.git'**
+- Execute **'npm install'** no diretório raiz do projeto para instalar as dependências.
  
 ### 2. Compilação e execução:
 

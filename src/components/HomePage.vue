@@ -16,7 +16,7 @@
 
     <div v-if="bestPetshop" class="resultado">
       <h2>Petshop mais barato: {{ bestPetshop.name }}</h2>
-      <p>Preço total: {{ bestPetshop.totalPrice }}</p>
+      <p>Preço total: R$ {{ bestPetshop.totalPrice }}</p>
     </div>
   </div>
 </template>
