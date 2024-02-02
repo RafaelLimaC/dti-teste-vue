@@ -4,7 +4,6 @@
 
 ### 1. Instalação do projeto:
 
-- Certifique-se de ter o Node.js e o npm instalados em seu sistema.
 - Execute npm install no diretório raiz do projeto para instalar as dependências.
  
 ### 2. Compilação e execução:
