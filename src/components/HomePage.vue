@@ -29,32 +29,32 @@ export default {
       date: '',
       smallDogs: 0,
       bigDogs: 0,
-    },
-    bestPetshop: null,
-    meuCaninoFeliz: {
-        name: 'Meu Canino Feliz',
-        distance: 2,
-        weekdaySmallPrice: 20,
-        weekdayBigPrice: 40,
-        weekendSmallPrice: 20 * 1.2,
-        weekendBigPrice: 40 * 1.2
-    },
-    vaiRex: {
-        name: 'Vai Rex',
-        distance: 1.7,
-        weekdaySmallPrice: 15,
-        weekdayBigPrice: 50,
-        weekendSmallPrice: 20,
-        weekendBigPrice: 55
-    },
-    chowChawgas: {
-        name: 'ChowChawgas',
-        distance: 0.8,
-        weekdaySmallPrice: 30,
-        weekdayBigPrice: 45,
-        weekendSmallPrice: 30,
-        weekendBigPrice: 45
-    },
+      },
+      bestPetshop: null,
+      meuCaninoFeliz: {
+          name: 'Meu Canino Feliz',
+          distance: 2,
+          weekdaySmallPrice: 20,
+          weekdayBigPrice: 40,
+          weekendSmallPrice: 20 * 1.2,
+          weekendBigPrice: 40 * 1.2
+      },
+      vaiRex: {
+          name: 'Vai Rex',
+          distance: 1.7,
+          weekdaySmallPrice: 15,
+          weekdayBigPrice: 50,
+          weekendSmallPrice: 20,
+          weekendBigPrice: 55
+      },
+      chowChawgas: {
+          name: 'ChowChawgas',
+          distance: 0.8,
+          weekdaySmallPrice: 30,
+          weekdayBigPrice: 45,
+          weekendSmallPrice: 30,
+          weekendBigPrice: 45
+      },
     };
   },
   computed: {
@@ -87,8 +87,8 @@ export default {
     submitForm() {
         this.findBestPetshop([this.meuCaninoFeliz, this.vaiRex, this.chowChawgas], new Date(this.form.date), this.form.smallDogs, this.form.bigDogs);
         console.log(this.meuCaninoFeliz.weekendSmallPrice);
-      }
-    },
+    }
+  },
 };
 </script>
 
