@@ -23,7 +23,6 @@ body {
   padding: 0;
   background-color: #fff5b3;
   font-family: 'Fjalla One', sans-serif;
-  color: #2c3e50;
 
   min-height: 100vh;
 
