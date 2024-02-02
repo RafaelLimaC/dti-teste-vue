@@ -2,17 +2,17 @@
 
 ## Instruções para executar o sistema
 
-### Instalação do projeto:
+### 1. Instalação do projeto:
 
 - Certifique-se de ter o Node.js e o npm instalados em seu sistema.
 - Execute npm install no diretório raiz do projeto para instalar as dependências.
  
-### Compilação e execução:
+### 2. Compilação e execução:
 
 - Para iniciar o servidor de desenvolvimento com hot-reload, execute **'npm run serve'**.
 - Para compilar e minificar para produção, utilize **'npm run build'**.
 
-### Linting:
+### 3. Linting:
 
 - Execute **'npm run lint'** para linting e correção de arquivos.
 
