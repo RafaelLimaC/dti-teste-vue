@@ -22,7 +22,7 @@ body {
   background-color: #fff5b3;
   font-family: 'Fjalla One', sans-serif;
 
-  min-height: 100vh;
+  min-height: 100dvh;
 
   display: flex;
   align-items: center;
