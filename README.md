@@ -26,6 +26,10 @@
 
 - Execute **'npm run lint'** para linting e correção de arquivos.
 
+### 4. Testes:
+
+- Execute **'npm run test:unit'** para rodar os testes unitários.
+
 ## Decisões de projeto
 
 - Vue.js: Foi escolhido como framework para o desenvolvimento do projeto devido à sua facilidade de uso e ampla adoção na comunidade de desenvolvimento web.
