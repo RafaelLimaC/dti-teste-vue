@@ -5,6 +5,11 @@
 [![CSS](https://img.shields.io/badge/CSS-239120?logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 [![VUE.JS](https://img.shields.io/badge/Vue.js-35495E?logo=vue.js&logoColor=white)](https://vuejs.org/)
 
+## Lista de premissas assumidas
+
+- O projeto é desenvolvido usando Vue.js.
+- É necessário ter o Node.js e npm instalados para a configuração e execução do projeto.
+
 ## Instruções para executar o sistema
 
 ### 1. Instalação do projeto:
@@ -20,11 +25,6 @@
 ### 3. Linting:
 
 - Execute **'npm run lint'** para linting e correção de arquivos.
-
-## Lista de premissas assumidas
-
-- O projeto é desenvolvido usando Vue.js.
-- É necessário ter o Node.js e npm instalados para a configuração e execução do projeto.
 
 ## Decisões de projeto
 
