@@ -171,4 +171,9 @@ export default {
   transition: background-color 5000s ease-in-out 0s;
 }
 
+@media screen and (max-width: 370px) {
+  .form-wrapper__title {
+    font-size: 1.4rem;
+  }
+}
 </style>
