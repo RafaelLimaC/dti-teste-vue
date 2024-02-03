@@ -1,17 +1,17 @@
 <template>
   <div class="form-wrapper">
-    <h1>Encontre o PetShop com os melhores preços na sua região!</h1>
+    <h1 class="form-wrapper__title">Encontre o PetShop com os melhores preços na sua região!</h1>
     <form @submit.prevent="submitForm">
       <label for="date">Data:</label>
-      <input id="date" v-model="form.date" type="date">
+      <input id="date" v-model="form.date" type="date" class="form-wrapper__input">
 
       <label for="smallDogs">Cães pequenos:</label>
-      <input id="smallDogs" v-model.number="form.smallDogs" type="number" min="0">
+      <input id="smallDogs" v-model.number="form.smallDogs" type="number" min="0" class="form-wrapper__input">
 
       <label for="bigDogs">Cães grandes:</label>
-      <input id="bigDogs" v-model.number="form.bigDogs" type="number" min="0">
+      <input id="bigDogs" v-model.number="form.bigDogs" type="number" min="0" class="form-wrapper__input">
 
-      <button type="submit" :disabled="!isFormValid">Encontrar Petshop</button>
+      <button type="submit" :disabled="!isFormValid" class="form-wrapper__button">Encontrar Petshop</button>
     </form>
 
     <div v-if="bestPetshop" class="resultado">
@@ -100,15 +100,16 @@ export default {
   justify-content: center;
 
   background-color: #f8f4e5;
+  padding: 0 10px;
 }
 
-.form-wrapper h1 {
+.form-wrapper__title {
   margin: 2rem;
   text-align: center;
   color: rgba(0,0,0,1);
 }
 
-input {
+.form-wrapper__input {
   display: block;
   width: 100%;
   font-size: 1.5rem;
@@ -123,11 +124,11 @@ input {
   color: rgba(0,0,0,1);
 }
   
-input:focus {
+.form-wrapper__input:focus {
   border-bottom: 5px solid #ffa580;
 }
   
-button {
+.form-wrapper__button {
   display: block;
   margin: 20px auto 20px auto;
   line-height: 2rem;
@@ -142,32 +143,32 @@ button {
   cursor: pointer;
 }
 
-button:disabled {
+.form-wrapper__button:disabled {
   background-color: #d4d4d4;
 }
 
-button:hover {
+.form-wrapper__button:hover {
   background: #f59773;
   box-shadow: 6px 6px 1px 1px #8f9efc, 6px 6px 1px 2px rgba(0,0,0,1);
 }
 
-button:disabled:hover {
+.form-wrapper__button:disabled:hover {
   background-color: #d4d4d4;
   cursor: not-allowed;
 }
   
   
-button::selection {
+.form-wrapper__button::selection {
   background: #ffc8ff;
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus {
+.form-wrapper__input:-webkit-autofill,
+.form-wrapper__input:-webkit-autofill:hover, 
+.form-wrapper__input:-webkit-autofill:focus {
   border-bottom: 5px solid #95a4ff;
   -webkit-text-fill-color: #2A293E;
   -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
   transition: background-color 5000s ease-in-out 0s;
 }
-  
+
 </style>
